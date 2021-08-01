@@ -36,3 +36,5 @@ console.log(Message.printMsg(names.customname1));
 console.log(Message.printMsg(names.customname2));
 //In the output, we are getting undefined return type, as the printMsg declared in the functions module is a functionvariable,
 // the value returned to that particular variable is nothing, so undefined is returned to it, as it is exported everytime, so as the same reflected everywhere. We are only getting this only once, as the control goes into setInterval function, which takes care of the rest.
+
+//Shortcut to use log function is to type log and select appropriate one. Very useful
