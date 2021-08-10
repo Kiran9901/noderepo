@@ -1,0 +1,1 @@
+Here is the result of addition of contents of first nad second files: This is a first text file This is a second text fileHere is the result of addition of contents of first nad second files: This is a first text file This is a second text fileHere is the result of addition of contents of first nad second files: This is a first text file This is a second text file

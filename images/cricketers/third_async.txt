@@ -1,0 +1,2 @@
+Here's the content of 1st and second file in combination: This is a first text file
+This is a second text file
