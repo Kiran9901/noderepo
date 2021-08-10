@@ -20,7 +20,7 @@ Module {
     '/node_modules'
   ]
 }
-No, focus on the exports key in the info, which is empty, as wew didn't export any kind of variables from the current module. The variables inside the module can be access controlled i.e, it is on our hands
+Now, focus on the exports key in the info, which is empty, as wew didn't export any kind of variables from the current module. The variables inside the module can be access controlled i.e, it is on our hands
 
 To export so, use the ES6 syntax of exporting, shown as follows:
 */
