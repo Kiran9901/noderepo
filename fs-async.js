@@ -32,3 +32,8 @@ readFile("./images/cricketers/first.txt", "utf-8", (err, result) => {
 //Why async is preferred over sync?
 //Ans: as in case of async, the server receives a task to be done in form of a request, offloads the task to other thread so that it seperatley gets executed, while giving chance for the server to serve another user's request meanwhile.
 //As in case of sync, everything gets executed in order starting from initial line to the final line, which makes the server to take more time to get tasks done, thus making it inefficient to serve multiple requests form multiple users.
+
+//This is gonna be messy, but still very helpful functionality to serve multiple requests
+//Reading and writing file here is a very good example to show how data is extracted in real time from DB by the application in real time.
+
+//Later on, some methods which are helpful to reduce the code length and even gives the promising async functionality by the node will be discussed later on as part of this walkthrough
