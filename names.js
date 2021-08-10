@@ -24,7 +24,7 @@ No, focus on the exports key in the info, which is empty, as wew didn't export a
 
 To export so, use the ES6 syntax of exporting, shown as follows:
 */
-
+console.log("Hello from names module");
 module.exports = { customname1, customname2 };
 //Note that all the exports are done in the form of JSON objects
 //customname3 is not exported, so remains private to other modules in node
