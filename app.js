@@ -42,3 +42,5 @@ const _ = require("lodash");
 const items = [1, [2], [[3], 4], [[5], 6]];
 const flattenedItems = _.flattenDeep(items);
 console.log(flattenedItems);
+
+//.gitignore is generally used to ignore the files that are needed to be pushed into git repo, which are too large. The user can install the dependencies accordingly by simply running npm install. gitignore is very helpful to save space.
