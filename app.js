@@ -32,4 +32,8 @@
 
 //It is very important to have packag.json file in npm project in general.
 //When we install any npm package, we also notice node_modules folder in the project directory.
-//When bigger packages use other dependenices in turn, those dependencies of dependencies are also installed in the node_modules folder
+//When bigger packages use other dependencies in turn, those dependencies of dependencies are also installed in the node_modules folder
+
+//For demonstration, a package named lodash is being installed inside our project locally, that contains many methods to manipulate different kinds of data in JS.
+//To install lodash, just go to npmjs.org, and search for lodash. Installation instructions can be found there. To access their docs, navigate to their website. Not only this package, this is the general method to navigate to any kind of website.
+//npm i lodash
