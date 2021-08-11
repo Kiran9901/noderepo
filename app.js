@@ -39,6 +39,6 @@
 //npm i lodash
 //_ is the naming convention used for lodash, so we name the reference as _ to access lodash instance.
 const _ = require("lodash");
-const items = [1, 2, 3, [4, [5, [6]]], [[7]]];
-const newItems = _.flattenDeep(items);
-console.log(newItems);
+const items = [1, [2], [[3], 4], [[5], 6]];
+const flattenedItems = _.flattenDeep(items);
+console.log(flattenedItems);
