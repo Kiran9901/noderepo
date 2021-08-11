@@ -15,4 +15,21 @@
 
 //npm --version ->To check the npm version being used in the machine
 //npm i <package_name> -> Installs the package mentioned in the package_name argument local to the current project
-//npm install -g <package_name> -> Installs the package mentioned in the package_name globally
+//sudo npm install -g <package_name> -> Installs the package mentioned in the package_name globally. Don't forget to mention sudo, as root permissions are needed to be provided for the npm to install package
+
+//Every file that uses npm contains a manifest file called package.json(stores important info about package/ project)
+
+//WE have three approaches in order to maintain the manifest file:
+//1.manually create package.json file
+//2.run npm init, which asks you questions to be answered. If you wnat to skip it, use the following approach:
+//3.npm init -y(Everything is setup as default)
+
+//2nd approach is followed here:
+//In this approach, it asks for the name of the package(in case you wanna publish it). Make sure that the name to be published is unique on the internet, so give a unique name.
+//It also asks about the entry point of the package, which can be set to app.js, even can be changed later on. It also asks abou the author name, license, test and things like that; no need to worry about them at this point of time, can be dealt later on when you really wanna publish the package. Also asks about keywords. Of course, it takes a lot of time!
+
+//If we install any dependencies for the current project, it gets reflected in the dependencies attribute of the package.json file
+
+//It is very important to have packag.json file in npm project in general.
+//When we install any npm package, we also notice node_modules folder in the project directory.
+//When bigger packages use other dependenices in turn, those dependencies of dependencies are also installed in the node_modules folder
