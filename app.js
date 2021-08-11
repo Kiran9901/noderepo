@@ -43,4 +43,9 @@ const items = [1, [2], [[3], 4], [[5], 6]];
 const flattenedItems = _.flattenDeep(items);
 console.log(flattenedItems);
 
-//.gitignore is generally used to ignore the files that are needed to be pushed into git repo, which are too large. The user can install the dependencies accordingly by simply running npm install. gitignore is very helpful to save space.
+//.gitignore is generally used to ignore the files that are needed to be pushed into git repo, which are too large. The user can install the dependencies accordingly by simply running npm install, by checking the dependecies attribute present in the package.json folder. gitignore is very helpful to save space. Uderstand the importance of the package.json file in this case
+
+//Nodemon -> a tool used to automatically restart the node.js server whenever changes in the directory are detected. Very helpful package. Command to install nodemon is stated below:
+//npm i nodemon
+//To install nodemon as a development dependecy(as not required for production in general), use the following command:
+//npm i nodemon --save-dev or npm i nodemon -D
