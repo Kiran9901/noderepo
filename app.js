@@ -37,3 +37,8 @@
 //For demonstration, a package named lodash is being installed inside our project locally, that contains many methods to manipulate different kinds of data in JS.
 //To install lodash, just go to npmjs.org, and search for lodash. Installation instructions can be found there. To access their docs, navigate to their website. Not only this package, this is the general method to navigate to any kind of website.
 //npm i lodash
+//_ is the naming convention used for lodash, so we name the reference as _ to access lodash instance.
+const _ = require("lodash");
+const items = [1, 2, 3, [4, [5, [6]]], [[7]]];
+const newItems = _.flattenDeep(items);
+console.log(newItems);
