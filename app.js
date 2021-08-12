@@ -49,3 +49,11 @@ console.log(flattenedItems);
 //npm i nodemon
 //To install nodemon as a development dependecy(as not required for production in general), use the following command:
 //npm i nodemon --save-dev or npm i nodemon -D
+
+//In scripts attribute of package.json, we can give commands in form of keys, when executed in the npm key format, corresponding value of the key gets executed.
+//Now, package-lock.json is locked i.e, node dependencies that can't be edited, read only json file.
+//One can setup their own commands in scripts section of the package.json
+// In this current project, nodemon is being used, same is reflected in the scripts attribute of package.json, please consider this and remember in your mind.
+
+//const server = require("./server"); To start an instance of a server
+// console.log(server); Prints nothing onto the console, just an empty json object, as nothing is printed out onto the console in the server module that is user defined.
