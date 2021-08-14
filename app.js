@@ -87,3 +87,5 @@
 //const event_loop = require("./event-loop"); //Here, observe how the execution is done on the output side, delay in printing the output, similar to sleep in c.
 
 //const eventloop_async = require("./eventloop-async");
+
+const blocking_code = require("./blockingcode");
