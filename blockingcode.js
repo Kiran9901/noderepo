@@ -17,3 +17,5 @@ server.listen(3000, () => {
 });
 
 //Never ever forget to write res.end() at the end of the coe, else the server loads endlessly!!!!!! Very important
+
+//Ultimate goal is to solve this problem, for which the solution is discussed later on here
